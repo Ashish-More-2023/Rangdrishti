@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --color-ink: #1f2340;
+  --color-paper: #f7f7fb;
+  --color-line: #dcdce8;
+  --color-muted: #5f6378;
+  --color-reel: #b0164e;
+  --color-ok: #16794f;
+  --color-bad: #b42318;
+  --color-amber: #8a5a00;
+  --color-tile: #2a2342;
+  --color-night: #16182b;
+  --color-night-line: #2e3150;
+  --color-moon: #ecebf5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

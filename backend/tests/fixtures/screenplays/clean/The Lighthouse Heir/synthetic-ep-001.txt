@@ -1,0 +1,55 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: Mara inherits a cliffside lighthouse and finds a stranger already living in it.
+The logline continues on a second line.
+CONTINUITY NOTES: First episode. Establishes Mara and Tobias.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: EXT. CLIFF LIGHTHOUSE – DUSK
+Scene start: 00:00.00
+Scene end: 00:20.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:04.00)
+Wide shot of a lighthouse on a cliff as waves crash below.
+
+**ACTION:**
+Start: (00:01.00) | End: (00:04.00)
+Mara climbs the last steps, clutching a brass key.
+
+**LADY MARA (Breathless):**
+Start: (00:04.00) | End: (00:07.50)
+"It's mine now.
+All of it."
+
+**TOBIAS:**
+Start: (00:07.50) | End: (00:09.00)
+"Not for long."
+
+**MARA (V.O.) (Quiet, Certain):**
+Start: (00:09.00) | End: (00:12.00)
+"I knew his voice before I saw his face."
+
+**SOUND FX:**
+Start: (00:12.00) | End: (00:13.00)
+A door slams somewhere above.
+
+SCENE 02
+Scene heading: INT. LAMP ROOM – NIGHT
+Scene start: 00:20.00
+Scene end: 00:35.00
+
+Actions and dialogue:
+
+**SIR TOBIAS (O.S. / Continues):**
+Start: (00:20.00) | End: (00:23.00)
+"You should have stayed in the city."
+
+**MARA (Defiant):**
+Start: (00:23.00) | End: (00:26.00)
+"And you should have stayed dead."
+
+--- SCRIPT END ---

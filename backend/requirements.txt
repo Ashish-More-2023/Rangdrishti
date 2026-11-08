@@ -1,0 +1,5 @@
+# Ranges stay inside versions known to support Django 5.2 LTS.
+Django>=5.2,<5.3
+djangorestframework>=3.16,<3.17
+django-cors-headers>=4.7,<5
+python-dotenv>=1.0,<2

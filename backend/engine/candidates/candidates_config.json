@@ -1,0 +1,86 @@
+{
+  "config_version": "1.0.0",
+  "notes": "Starting weights are reasoned priors, not tuned values. Tune only against a human gold set (docs/gold_promos.template.json). Vocabulary is generic drama language: never add a show's character names or props.",
+
+  "window": {"min_duration_s": 20.0, "max_duration_s": 60.0, "tolerance_s": 0.011},
+
+  "weights": {
+    "hook": 0.30, "cliffhanger": 0.30, "dialogue_density": 0.10,
+    "intensity": 0.10, "standalone": 0.10, "duration_fit": 0.10
+  },
+
+  "keyword_bonus_max": 0.15,
+
+  "scene_crossing": {"penalty_per_crossing": 0.05, "max_penalty": 0.15},
+
+  "hook": {
+    "window_s": 3.0,
+    "speech_onset": 0.40,
+    "voice_over_factor": 0.5,
+    "intense_delivery": 0.30,
+    "emphatic_punctuation": 0.10,
+    "fast_cutting_min_blocks": 3,
+    "fast_cutting": 0.10,
+    "keyword_per_hit": 0.05
+  },
+
+  "cliffhanger": {
+    "window_s": 4.0,
+    "ends_on_question": 0.30,
+    "cuts_before_reply": 0.25,
+    "reply_gap_s": 1.5,
+    "intense_last_line": 0.15,
+    "scene_end": 0.10,
+    "episode_end": 0.15,
+    "keyword_per_hit": 0.05
+  },
+
+  "dialogue_density": {"zero_below": 0.15, "ideal_min": 0.45, "ideal_max": 0.85, "value_at_full": 0.8},
+
+  "intensity": {"saturation_events_per_min": 10.0, "keyword_event_weight": 0.25},
+
+  "standalone": {
+    "max_easy_speakers": 3,
+    "per_extra_speaker": 0.10,
+    "dangling_opener": 0.25,
+    "mid_conversation": 0.20,
+    "mid_conversation_gap_s": 1.5,
+    "voice_over_heavy_share": 0.5,
+    "voice_over_heavy": 0.15,
+    "scene_start_bonus": 0.10
+  },
+
+  "duration_fit": {"ideal_min_s": 30.0, "ideal_max_s": 45.0, "edge_value": 0.5},
+
+  "selection": {
+    "per_episode": 6,
+    "max_overlap": 0.5,
+    "min_score": 0.30,
+    "episode_ending_cap": 1,
+    "ending_zone_s": 3.0
+  },
+
+  "vocabulary": {
+    "intense_delivery": [
+      "shouting", "screaming", "yelling", "roaring", "bellowing", "furious", "enraged", "angry", "outraged",
+      "seething", "snarling", "snarl", "snarls", "hissing", "barked", "cold", "icy", "chilling", "cruel",
+      "mocking", "sneering", "scornful", "contemptuous", "disdainful", "venomous", "vicious", "menacing",
+      "threatening", "sinister", "ruthless", "vindictive", "triumphant", "gleeful", "accusing", "accusatory",
+      "desperate", "pleading", "begging", "sobbing", "frantic", "hysterical", "panicked", "terrified",
+      "horrified", "shocked", "stunned", "defiant", "commanding", "fierce", "breaking", "choking"
+    ],
+    "hook_cues": [
+      "slap", "slaps", "strikes", "struck", "punches", "grabs", "seizes", "shoves", "pushes", "throws",
+      "hurls", "smashes", "shatters", "slams", "collapses", "faints", "falls", "kneels", "gasps", "screams",
+      "blood", "bleeding", "stabs", "chokes", "drags", "tears", "rips", "kisses", "reveals", "unmasks",
+      "crashes", "explodes", "gunshot", "bursts"
+    ],
+    "cliffhanger_cues": [
+      "cliffhanger", "ominous", "sting", "freezes", "frozen", "stunned", "shocked", "gasps", "horror",
+      "horrified", "realization", "realizes", "reveal", "revealed", "thud", "slams", "silence", "bursts",
+      "cut to black"
+    ],
+    "close_up_cues": ["close-up", "close up", "extreme close", "snap zoom", "crash zoom", "whip pan", "push in", "push-in", "rack focus"],
+    "dangling_openers": ["he", "she", "they", "it", "that", "this", "those", "these", "and", "but", "so", "because", "then", "him", "her", "his", "their"]
+  }
+}

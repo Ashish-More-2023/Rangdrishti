@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "show_slug": "",
+  "labeler": "",
+  "labeled_on": "",
+  "method": "",
+  "instructions": [
+    "Pick 10-15 promos YOU would post. Decide them from this worksheet or by watching the show, BEFORE opening candidates_review.md.",
+    "Each pick is one continuous 20-60 s stretch from one episode: a hook in the first 3 s, an unresolved cut at the end, understandable by a stranger.",
+    "Spread picks over at least 6 different episodes, and make at least 3 that do NOT end at an episode's final line.",
+    "Times come from the worksheet (MM:SS.ss, episode-relative). Approximate is fine: a pick counts as found if a candidate covers at least half of it.",
+    "Copy blank_pick into promos once per pick, change every placeholder, keep commas between entries and none after the last.",
+    "Fill labeler and method (for example: read scripts of E001-E025, about 40 minutes). This file stays in data/config, which Git ignores."
+  ],
+  "blank_pick": {
+    "id": "G01",
+    "segments": [
+      {
+        "episode_id": "E0NN",
+        "start": "MM:SS.ss",
+        "end": "MM:SS.ss"
+      }
+    ],
+    "hook": "what stops a scrolling viewer in the first 3 s",
+    "cliffhanger": "what is left unresolved at the cut",
+    "why": "one line on why you would post it",
+    "confidence": "high | medium | low"
+  },
+  "promos": []
+}

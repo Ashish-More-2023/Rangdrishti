@@ -1,0 +1,24 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: Tobias makes Mara an offer she cannot refuse.
+CONTINUITY NOTES: Picks up directly from Episode 1.
+
+--- SCRIPT START ---
+
+SCENE 01
+SCENE HEADING: INT. LAMP ROOM – CONTINUOUS
+SCENE START: 00:00.00
+SCENE END: 00:15.00
+
+ACTIONS AND DIALOGUE:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:05.00)
+Close-up on the brass key in Mara's palm.
+
+**HARBOR MASTER (Edmund) (Gruff):**
+Start: (00:05.00) | End: (00:09.00)
+"The tide won't wait for either of you."
+
+**MARA (Off-screen):**
+Start: (00:09.00) | End: (00:11.00)
+"Then let it come."

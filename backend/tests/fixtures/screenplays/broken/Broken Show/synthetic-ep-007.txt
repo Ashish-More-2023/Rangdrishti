@@ -1,0 +1,36 @@
+EPISODE NUMBER: Episode 7
+EPISODE LOGLINE: Deliberately broken fixture for tests.
+CONTINUITY NOTES: Every problem here is intentional.
+
+--- SCRIPT START ---
+Stray line before any scene.
+
+SCENE 01
+Scene heading: INT. HALL – DAY
+
+Actions and dialogue:
+Editor note: check this take.
+
+**CAMERA:**
+Start: (00:0x.00) | End: (00:04.00)
+A slow push in.
+
+**ACTION:**
+Ivy drops the letter.
+
+**IVY (Cold):**
+Start: (00:06.00) | End: (00:05.00)
+"Leave."
+
+**IVY:**
+Start: 00:07.00 - End: 00:08.00
+"Now."
+
+SCENE 02
+Scene heading: EXT. GARDEN – DAY
+Scene start: 00:10.00
+Scene end: 00:20.00
+**CAMERA:**
+Start: (00:10.00) | End: (00:12.00)
+Wide on the garden.
+Start: (00:12.00) | End: (00:13.00)

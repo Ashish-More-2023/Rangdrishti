@@ -1,0 +1,10 @@
+{
+  "config_version": "1.0.0",
+  "notes": "final_score = rule_weight * rule_score + ai_weight * ai_score. ai_score combines the model's 0-10 sub-scores. Priors, not tuned values.",
+  "rule_weight": 0.3,
+  "ai_weight": 0.7,
+  "ai_subweights": {"hook": 0.4, "cliffhanger": 0.4, "standalone": 0.2},
+  "verdict_order": ["post", "maybe", "skip"],
+  "post_first": {"count": 10, "max_per_episode": 1, "exclude_verdicts": ["skip"]},
+  "trim": {"allowed": true, "min_overlap_with_original": 0.5}
+}
